@@ -6,7 +6,7 @@ public class BasicSingleton {
 
     private static BasicSingleton instance = new BasicSingleton();
 
-    public BasicSingleton getInstance(){
+    public static BasicSingleton getInstance(){
         return instance;
     }
 
